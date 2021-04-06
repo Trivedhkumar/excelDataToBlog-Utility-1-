@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <title>Blog Utility</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="notification is-primary has-text-centered">
+              <strong>Blog Utility</strong>
+            </div>
+        </div>
+    </header>
+    <section class="section">
+        <h1 class="title">Name</h1>
+        <h2 class="subtitle">
+          Paste all the data with line breaks
+        </h2>
+        <textarea class="textarea" id="name"></textarea> 
+    </section>
+    <section class="section">
+        <h1 class="title">Category</h1>
+        <h2 class="subtitle">
+            Paste all the data with line breaks
+        </h2>
+        <textarea id="category" class="textarea"></textarea>
+    </section>
+    <section class="section">
+    <h1 class="title">Blog Name</h1>
+    <h2 class="subtitle">
+        Paste all the data with line breaks
+    </h2>
+    <textarea id="blogname" class="textarea"></textarea>
+    </section>
+    <section class="section">
+    <h1 class="title">Blog Url</h1>
+    <h2 class="subtitle">
+        Paste all the data with line breaks
+    </h2>
+    <textarea id="blogurl" class="textarea"></textarea>
+    <div class="box is-right">
+        <button onclick="convertData()" class="button is-primary">Convert</button>
+    </div>
+    </section>
+    <section class="section">
+        <h1 class="title">Result</h1>
+        <textarea id="result" class="textarea"></textarea>
+        </section>
+</body>
+<script src="script.js"></script>
+</html>
